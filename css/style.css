@@ -65,30 +65,27 @@ li {
 
 /*self-introduction section*/
 
-.background-image {
+.self-intro{
 	background-image: url("../images/background.jpg");
-	background-size: cover;
 	background-position: center bottom;
-	background-repeat: no-repeat;
-	display: block;
-	filter: blur(1px);
-	-webkit-filter: blur(2px);
-	height: 45.938rem;
-	left: 0;
-	position: fixed;
-	right: 0;
-	z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
 }
 
 .self-intro .content{
-	position: fixed;
 	text-align: center;
-	z-index: 2;
 	padding-top: 15em;
 	color: #C5CAE9;
 }
 
 .self-intro h1{
-	font-size: 3.1em;
+	font-size: 5em;
 	font-weight: 500;
+}
+
+.self-intro h3{
+	font-size: 1.5em;
+	font-weight: 300;
+	text-align: center;
 }
