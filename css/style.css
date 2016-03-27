@@ -27,7 +27,7 @@ li {
 	z-index: 9999;
 	border: 0;
 	top: 0;
-    border-bottom: 1px solid #eaebec;
+    border-bottom: 1px solid #7986CB;
 }
 
 .content {
@@ -88,4 +88,12 @@ li {
 	font-size: 1.5em;
 	font-weight: 300;
 	text-align: center;
+}
+
+.hi-there{
+	padding-top: 1em;
+}
+
+.developer-title{
+	margin-top: -1.65em;
 }
